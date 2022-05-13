@@ -1,0 +1,26 @@
+body {
+    background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: cover;
+}
+
+
+img {
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 20px;
+    text-decoration:  none;
+    color:black;
+}
+
+p{ 
+    text-align:justify;
+    position: relative
+}
