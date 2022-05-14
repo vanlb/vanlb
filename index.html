@@ -21,8 +21,22 @@
       href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
       rel="stylesheet"
     />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-RRNL6S73Q2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-RRNL6S73Q2");
+    </script>
     <title>Document</title>
   </head>
+
   <body>
     <div id="menu">
       <ul>
@@ -46,6 +60,62 @@
         </li>
       </ul>
     </div>
+
+    <input hidden type="checkbox" class="navInput" name="" id="mobileInput" />
+    <div class="mobileMenu">
+      <ul>
+        <li class="leftMenu">
+          <a href="#">daoquanhHaNoi</a>
+        </li>
+      </ul>
+      <label class="labelMenu" for="mobileInput">
+        <img src="HomeImages/menu.png" />
+      </label>
+      <label class="mobileClose" for="mobileInput">
+        <img src="HomeImages/close.png" />
+      </label>
+    </div>
+    <label for="mobileInput" class="overlay"></label>
+    <div class="navMobile">
+      <ul class="navMobileList">
+        <li class="menuItem">
+          <label for="mobileInput">
+            <a><span onclick="window.location.href='#'"> HOME</span></a>
+          </label>
+        </li>
+        <li class="menuItem">
+          <label for="mobileInput">
+            <a>
+              <span onclick="window.location.href='#localCuisine'">
+                LOCAL CUISINE
+              </span></a
+            >
+          </label>
+        </li>
+        <li class="menuItem">
+          <label for="mobileInput">
+            <a>
+              <span onclick="window.location.href='#place'"> PLACES </span></a
+            >
+          </label>
+        </li>
+        <li class="menuItem">
+          <label for="mobileInput">
+            <a>
+              <span onclick="window.location.href='#aboutMe'"> ABOUT</span>
+              ME</a
+            >
+          </label>
+        </li>
+        <li class="menuItem">
+          <label for="mobileInput">
+            <a>
+              <span onclick="window.location.href='#contact'"> CONTACT</span></a
+            >
+          </label>
+        </li>
+      </ul>
+    </div>
     <div class="#body">
       <img class="homeImg" src="HomeImages/home_image.jpg" />
       <div id="aboutMe" class="line"></div>
@@ -55,6 +125,7 @@
         <div class="welcomeRight">
           <h3>HELLO!</h3>
           <h2>MY NAME IS LE BAO VAN.</h2>
+          <div class="lineMobile"></div>
           <p>
             Thank you for coming by! Let's me introduce to you the Ha Noi's
             cuisine and popular places.
@@ -65,19 +136,19 @@
       <div class="line"></div>
       <div class="place">
         <div class="food">
-          <h2>LOCAL CUISINE</h2>
+          <h3>LOCAL CUISINE</h3>
           <a href="#localCuisine">
             <img src="HomeImages/foodIcon.png" />
           </a>
         </div>
         <div class="food">
-          <h2>PLACES</h2>
+          <h3>PLACES</h3>
           <a href="#place">
             <img src="HomeImages/place.png" />
           </a>
         </div>
         <div class="food">
-          <h2>CONTACT</h2>
+          <h3>CONTACT</h3>
           <a href="#contact">
             <img src="HomeImages/contact.png" />
           </a>
@@ -89,21 +160,21 @@
       <div class="cuisineContainer">
         <div class="cuisine">
           <a href="Bún đậu hàng Khay.html">
-            <img src="HomeImages/Bun dau mam tom.jpg" />
+            <img src="HomeImages/bun_dau.png" />
           </a>
-          <h3>Bún đậu hàng Khay - Ăn là mê ngay</h3>
+          <h5>Bún đậu hàng Khay - Ăn là mê ngay</h5>
         </div>
         <div class="cuisine">
           <a href="Phở gánh hàng Chiếu.html">
-            <img src="HomeImages/Pho.jpg" />
+            <img src="HomeImages/pho_ganh.png" />
           </a>
-          <h3>Phở gánh hàng Chiếu - Liêu siêu lòng người</h3>
+          <h5>Phở gánh hàng Chiếu - Liêu siêu lòng người</h5>
         </div>
         <div class="cuisine">
           <a href="Bún chả hàng Quạt.html">
-            <img src="HomeImages/Bun cha.jpg" />
+            <img src="HomeImages/bun.png" />
           </a>
-          <h3>Bún chả hàng Quạt - Ngon ngất ngây</h3>
+          <h5>Bún chả hàng Quạt - Ngon ngất ngây</h5>
         </div>
       </div>
       <div id="place" class="line"></div>
@@ -111,21 +182,21 @@
       <div class="cuisineContainer">
         <div class="cuisine">
           <a href="Hà Nội mới.html">
-            <img src="HomeImages/Bao chi.jpg" />
+            <img src="HomeImages/hanoi.png" />
           </a>
-          <h3>Hà Nội mới</h3>
+          <h5>Hà Nội mới</h5>
         </div>
         <div class="cuisine">
           <a href="Hẻm Hồ Tây.html">
-            <img src="HomeImages/Ho tay.jpg" />
+            <img src="HomeImages/ho.png" />
           </a>
-          <h3>Hẻm Hồ Tây</h3>
+          <h5>Hẻm Hồ Tây</h5>
         </div>
         <div class="cuisine">
           <a href="Cầu Long Biên.html">
-            <img src="HomeImages/Cau Long Bien.jpg" />
+            <img src="HomeImages/cau.jpg" />
           </a>
-          <h3>Cầu Long Biên</h3>
+          <h5>Cầu Long Biên</h5>
         </div>
       </div>
       <div id="contact" class="line"></div>
