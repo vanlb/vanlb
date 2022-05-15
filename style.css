@@ -51,7 +51,7 @@
         margin: auto
     }
     .homeImg {
-        margin-bottom: 150px;
+        margin-bottom: 2px;
         display: block;
         width: 100%;
         height: 800px;
@@ -63,7 +63,7 @@
         flex-direction: row;
         display: flex;
         justify-content: center;
-        margin-bottom: 250px;
+        margin-bottom: 100px;
         margin-top: 250px;
     }
     .welcomeContainer img {
@@ -73,21 +73,24 @@
         max-width: 400px;
         margin-left: 100px;
     }
+    #exploreMore {
+        padding-top: 8.125rem;
+    }
     .welcomeRight p {
         display: inline-block;
         margin-bottom: 80px;
         margin-top: 60px;
-        color: #B4B4B4;
+        color: #807891;
         font-family: 'Cookie', cursive;
-        font-size: 22px;
+        font-size: 35px;
         font-weight: 400;
     }
     .welcomeRight h3 {
-        margin-bottom: 40px;
-        color: #CECECE;
-        font-weight: 500;
-        font-family: 'Cookie', cursive;
-        font-size: 70px;
+    margin-bottom: 40px;
+    color: #5e5252;
+    font-weight: 500;
+    font-family: 'Cookie', cursive;
+    font-size: 70px;
     }
     .welcomeRight h2 {
         margin-bottom: 40px;
@@ -97,14 +100,14 @@
         font-weight: 600;
     }
     .welcomeRight a {
-        color: #A6A6A6;
-        font-size: 10px;
-        font-weight: 600;
-       
-        padding: 20px;
-        border: 2px solid #101010;
-        border-radius: 5px;
-        text-decoration: none;
+    color: #796060;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Cookie', cursive;
+    padding: 20px;
+    border: 2px solid #101010;
+    border-radius: 5px;
+    text-decoration: none;
     }
     .line {
         border-top: 2px solid #CECECE;
@@ -119,8 +122,14 @@
         background-repeat: no-repeat;
         align-items: center;
     }
+    .food h3 {
+        font-family: 'Cinzel', serif;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    }
     #localCuisine{
-        margin-bottom: 150px;
+        margin-bottom: 1px;
     }
     .place img {
         width: 300px
@@ -132,16 +141,20 @@
         align-items: center;
     }
     .food img{
-        width: 100px;
+        width: 120px;
         margin-top: 20px;
     }
     .titleCuisine {
         padding: 20px;
-        background-color: #E5EAEF;
+        background-color: #FCF5C7;
         display: inline-block;
-        border-top: 5px solid #51514e;
-        border-left: 5px solid #51514e;
-        margin-left: 20px;
+        border-top: 5px solid #FFC09Fc7;
+        border-left: 5px solid #FFC09Fc7;
+        border-style: outset;
+        margin-left: 40px;
+        margin-top: 30px;
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
     }
     .cuisineContainer {
         margin-bottom: 150px;
@@ -151,7 +164,8 @@
         justify-content: space-around;
     }
     .cuisineContainer h5 {
-        font-style: italic ;
+        font-family: 'Merriweather', serif;
+        font-size: 20px ;
     }
     .cuisineContainer img {
         width: 300px;
@@ -161,12 +175,16 @@
         text-align: center;
     }
     .titlePlace {
-        padding: 20px 40px 20px 40px;
-        background-color: #E5EAEF;
+        padding: 20px 49px 20px 49px;
+        background-color: #FCF5C7;
         display: inline-block;
-        border-top: 5px solid #51514e;
-        border-left: 5px solid #51514e;
-        margin-left: 20px;
+        border-top: 5px solid #FFC09Fc7;
+        border-left: 5px solid #FFC09Fc7;
+        border-style: outset;
+        margin-left: 40px;
+        margin-top: 30px;
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
     }
     .contact {
         flex-direction: row;
@@ -175,10 +193,14 @@
     }
     .titleContact {
         padding: 20px 40px 20px 40px;
-        background-color: #E5EAEF;
-        border-top: 5px solid #51514e;
-        border-left: 5px solid #51514e;
-        margin-left: 20px;
+        background-color: #FCF5C7;
+        border-top: 5px solid #FFC09Fc7;
+        border-left: 5px solid #FFC09Fc7;
+        border-style: outset;
+        margin-left: 40px;
+        margin-top: 30px;
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
     }
     .footer {
         display: flex;
@@ -188,7 +210,6 @@
     .footerImg {
         flex: 1;
         text-align: center;
-      
     }
     .footerImg img {
         width: 35px;
@@ -206,7 +227,6 @@
     .navInput {
         display: none
     }
-}
 
 /*Mobile < 740px*/
 @media only screen and (max-width: 46.1875em) {
@@ -263,7 +283,7 @@
         margin: auto
     }
     .homeImg {
-        margin-bottom: 150px;
+        margin-bottom: 2px;
         display: block;
         width: 100%;
         height: 800px;
@@ -294,9 +314,9 @@
         display: inline-block;
         margin-bottom: 40px;
         margin-top: 20px;
-        color: #B4B4B4;
+        color: #807891;
         font-family: 'Cookie', cursive;
-        font-size: 22px;
+        font-size: 35px;
         font-weight: 400;
     }
     .lineMobile {
@@ -305,9 +325,8 @@
         width: 100px;
     }
     .welcomeRight h3 {
-        margin-bottom: 20px;
-        margin-top: 20px;
-        color: #CECECE;
+        margin-bottom: 40px;
+        color: #5e5252;
         font-weight: 500;
         font-family: 'Cookie', cursive;
         font-size: 70px;
@@ -321,12 +340,13 @@
     }
     .welcomeRight a {
         color: #666262;
-        font-size: 12px;
+        font-size: 32px;
         font-weight: 600;
         padding: 15px 75px;
         border: 2px solid #101010;
         border-radius: 5px;
         text-decoration: none;
+        font-family: 'Cookie', cursive;
     }
     .line {
         border-top: 2px solid #CECECE;
@@ -341,22 +361,40 @@
         background-repeat: no-repeat;
         align-items: center;
     }
+
+    .food h3 {
+        font-family: 'Cinzel', serif;
+        font-weight: 900;
+        font-size: 30px;
+    }
+
     #localCuisine{
-        margin-bottom: 150px;
+        margin-bottom: 1px;
     }
     .place img {
         width: 300px
     }
+    .food {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .food img{
         width: 100px;
+        margin-top: 20px;
     }
     .titleCuisine {
         padding: 20px;
-        background-color: #E5EAEF;
+        background-color: #FCF5C7;
         display: inline-block;
-        border-top: 5px solid #51514e;
-        border-left: 5px solid #51514e;
-        margin-left: 20px;
+        border-top: 5px solid #FFC09Fc7;
+        border-left: 5px solid #FFC09Fc7;
+        border-style: outset;
+        margin-left: 40px;
+        margin-top: 30px;
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
     }
     .cuisineContainer {
         margin-bottom: 60px;
@@ -371,18 +409,23 @@
         margin-top: 30px
     }
     .cuisineContainer h5 {
-        font-style: italic ;
+        font-family: 'Merriweather', serif;
+        font-size: 20px ;
     }
     .cuisine {
         text-align: center;
     }
     .titlePlace {
-        padding: 20px 40px 20px 40px;
-        background-color: #E5EAEF;
+        padding: 20px 49px 20px 49px;
+        background-color: #FCF5C7;
         display: inline-block;
-        border-top: 5px solid #51514e;
-        border-left: 5px solid #51514e;
-        margin-left: 20px;
+        border-top: 5px solid #FFC09Fc7;
+        border-left: 5px solid #FFC09Fc7;
+        border-style: outset;
+        margin-left: 40px;
+        margin-top: 30px;
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
     }
     .contact {
         flex-direction: row;
@@ -391,10 +434,14 @@
     }
     .titleContact {
         padding: 20px 40px 20px 40px;
-        background-color: #E5EAEF;
-        border-top: 5px solid #51514e;
-        border-left: 5px solid #51514e;
-        margin-left: 20px;
+        background-color: #FCF5C7;
+        border-top: 5px solid #FFC09Fc7;
+        border-left: 5px solid #FFC09Fc7;
+        border-style: outset;
+        margin-left: 40px;
+        margin-top: 30px;
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
     }
     .footer {
         display: flex;
@@ -482,7 +529,6 @@
         display: none;
     }
 }
-
 /*Table >=740 & <=1024*/
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
     * {
@@ -538,7 +584,7 @@
         margin: auto
     }
     .homeImg {
-        margin-bottom: 150px;
+        margin-bottom: 2px;
         display: block;
         width: 100%;
         height: 800px;
@@ -564,9 +610,9 @@
         display: inline-block;
         margin-bottom: 80px;
         margin-top: 60px;
-        color: #B4B4B4;
+        color: #807891;
         font-family: 'Cookie', cursive;
-        font-size: 22px;
+        font-size: 35px;
         font-weight: 400;
     }
     .welcomeRight h3 {
@@ -585,13 +631,14 @@
     }
     .welcomeRight a {
         color: #A6A6A6;
-        font-size: 10px;
+        font-size: 32px;
         font-weight: 600;
        
         padding: 20px;
         border: 2px solid #101010;
         border-radius: 5px;
         text-decoration: none;
+        font-family: 'Cookie', cursive;
     }
     .line {
         border-top: 2px solid #CECECE;
@@ -606,22 +653,40 @@
         background-repeat: no-repeat;
         align-items: center;
     }
+
+    .food h3 {
+        font-family: 'Cinzel', serif;
+        font-weight: 900;
+        font-size: 30px;
+    }
+
     #localCuisine{
-        margin-bottom: 150px;
+        margin-bottom: 1px;
     }
     .place img {
         width: 300px
     }
+    .food {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .food img{
         width: 100px;
+        margin-top: 20px;
     }
     .titleCuisine {
         padding: 20px;
-        background-color: #E5EAEF;
+        background-color: #FCF5C7;
         display: inline-block;
-        border-top: 5px solid #51514e;
-        border-left: 5px solid #51514e;
-        margin-left: 20px;
+        border-top: 5px solid #FFC09Fc7;
+        border-left: 5px solid #FFC09Fc7;
+        border-style: outset;
+        margin-left: 40px;
+        margin-top: 30px;
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
     }
     .cuisineContainer {
         margin-bottom: 150px;
@@ -631,7 +696,8 @@
         justify-content: space-around;
     }
     .cuisineContainer h5 {
-        font-style: italic ;
+        font-family: 'Merriweather', serif;
+        font-size: 20px;
     }
     .cuisineContainer img {
         width: 600px;
@@ -642,12 +708,16 @@
         text-align: center;
     }
     .titlePlace {
-        padding: 20px 40px 20px 40px;
-        background-color: #E5EAEF;
+        padding: 20px 49px 20px 49px;
+        background-color: #FCF5C7;
         display: inline-block;
-        border-top: 5px solid #51514e;
-        border-left: 5px solid #51514e;
-        margin-left: 20px;
+        border-top: 5px solid #FFC09Fc7;
+        border-left: 5px solid #FFC09Fc7;
+        border-style: outset;
+        margin-left: 40px;
+        margin-top: 30px;
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
     }
     .contact {
         flex-direction: row;
@@ -656,10 +726,14 @@
     }
     .titleContact {
         padding: 20px 40px 20px 40px;
-        background-color: #E5EAEF;
-        border-top: 5px solid #51514e;
-        border-left: 5px solid #51514e;
-        margin-left: 20px;
+        background-color: #FCF5C7;
+        border-top: 5px solid #FFC09Fc7;
+        border-left: 5px solid #FFC09Fc7;
+        border-style: outset;
+        margin-left: 40px;
+        margin-top: 30px;
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
     }
     .footer {
         display: flex;
@@ -756,3 +830,8 @@
     }
 }
 
+@media only screen and (min-width: 740px) and (max-width: 1680px) {
+    #exploreMore {
+        padding-top: 0px;
+    }
+}
